@@ -1,0 +1,49 @@
+#background_2 {
+  /*explore page*/
+    background-image: url("../../assets/images/backgrounds/background2.jpg");
+    background-repeat: no-repeat;
+    background-position: 40% 0%;
+    background-attachment: fixed;
+    min-height: 800px;
+    text-align: center;
+    overflow: hidden; 
+	  margin-left: -20px;
+	  margin-right: -20px;
+}
+
+#explore_the_quilt-heading {
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 3em;
+  line-height: 1.2em;
+  margin-top: 10%;
+  /*margin-left: -10%;*/ }
+
+#viewrandom-button, #findname-button, #taketour-button {
+  width: 110%;
+  top: 40%;
+  padding-left: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: -15px;
+  /*margin-top: 10px;*/
+  background-color: #F495B4; }
+
+.explore_the_quilt-label, viewrandom-label {
+  font-size: 1.4em;
+  line-height: 1.9em;
+  text-align: left;
+  text-transform: uppercase;
+  padding-top: 1%;
+  padding-bottom: 1%; }
+
+.explore_the_quilt-menu {
+  font-size: 1.3em;
+  width: 100%;
+  line-height: 1.9em;
+  text-align: left;
+  text-transform: uppercase;
+  padding-top: 1%;
+  padding-bottom: 1%; }
