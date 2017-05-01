@@ -1,0 +1,43 @@
+
+#background_2 {
+  /*explore page*/
+    background-image: url(/app/assets/images/backgrounds/background2.jpg);
+    background-repeat: no-repeat;
+    background-position: 40% 0%;
+    background-attachment: fixed;
+    min-height: 800px;
+    text-align: center;
+    overflow: hidden; 
+	margin-left: -20px;
+	margin-right: -20px;
+}
+
+.explore_the_quilt-label {
+    font-size: 1.4em;
+    line-height: 1.9em;
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 1%;
+    padding-bottom: 1%; 
+}
+
+#explore-heading{
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px; 
+}
+
+#explore_stories-button, #explore_the_quilt-button {
+    width: 110%;
+    top: 40%;
+    padding-left: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: -20px;
+    /*margin-top: 10px;*/
+    background-color: #F495B4; 
+}
+
+#explore_stories-button {
+  background-color: #EF4036; }

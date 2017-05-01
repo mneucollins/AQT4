@@ -1,0 +1,38 @@
+#background_1{
+  background-image: url("../../assets/images/backgrounds/background_white_c.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  margin-left: -20px;
+  margin-right: -20px;
+  min-height: 800px;
+  text-align: center;
+  overflow: hidden; 
+}
+
+/*.container:before {
+    height: 20%;
+}*/
+
+.logoContainer {
+  text-align:center; /* Align center inline elements */
+  font: 0/0 a;       /* Hide the characters like spaces */
+  margin-top: 125px;
+}
+
+
+.logoContainer img {
+  display: inline-block;
+  width: 50%;
+}
+
+
+@media screen and (orientation: landscape) {
+    .logoContainer {
+        margin-top: 50px;
+    }
+    .logoContainer img {
+        display: inline-block;
+        width: 25%;
+    }
+}

@@ -1,0 +1,82 @@
+<div id="background_2">
+	<div>
+		<div class="row find_name-menu" id="find_name-panel">
+			<div class="txt-reverse">
+				Who are you looking for?
+			</div>
+			<small id="name-help" class="form-text text-muted">
+				We'll search for panels that match all selections.
+			</small>
+
+			<div class="row spaceabove20">
+				<div class="form-group col-xs-10">
+					<input 	type="text" 
+							class="form-control" 
+							id="name_search" 
+							aria-describedby="name-help"
+							placeholder="Enter name">
+				</div>
+			</div>
+			<div class="row">
+				<div class="form-group col-xs-10">
+					<input 	type="text" 
+							class="form-control" 
+							id="year_search" 
+							placeholder="Year added to quilt">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="form-group col-xs-10">
+					<input 	type="text" 
+							class="form-control" 
+							id="city_search" 
+							placeholder="City (of origin or adopted)">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="form-group col-xs-5">
+					<input 	type="text" 
+							class="form-control" 
+							id="block_search" 
+							placeholder="Block Number">
+				</div>							
+			</div>
+			<div class="row txt-reverse">
+				<div class="col-xs-9 col-xs-offset-1">
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Has Story</label>
+					</div>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Has Photo(s)</label>
+					</div>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Has Attachements</label>
+					</div>
+				</div>
+			</div>
+
+			<div class="row" id="fewer_options-button" (click)='onFewerOptions()'>
+				<div class="col-xs-8 text-center more_options-menu vcenter">
+					<span class="txt-reverse"><i>Fewer Options&hellip;</i></span>
+				</div>
+			</div>
+
+			<div class="row spaceabove20" id="find_name-button" (click)='onFindName()'>
+				<div class="col-xs-9 col-xs-offset-1 vcenter">
+					<div class="find_name-menu txt-reverse">
+						Find Name
+					</div>					
+				</div>
+				<div class="col-xs-2 vcenter icon-right"></div>
+			</div>
+
+		<div class="row spaceabove20"></div>
+
+		</div>
+	</div>
+	
+	<globalnav4></globalnav4>
+	
+</div>

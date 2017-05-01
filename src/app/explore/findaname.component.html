@@ -1,0 +1,55 @@
+<!--From AQT...needs refactoring for AQT2-->
+<div id="background_2">
+	<div>
+		<div class="row spaceabove20">
+			<div class="col-xs-offset-1">
+				<!--<div class="pg-title ">-->
+					<div id="find_name-heading">
+						<span class="txt-reverse">Find a</span>
+						<span class="txt-reverse">Name</span>
+					</div>
+				<!--</div>-->
+			</div>
+		</div>
+
+		<div class="row spaceabove20 find_name-menu" id="find_name-panel">
+			<div class="txt-reverse">
+				Who are you looking for?
+			</div>
+			<div class="row spaceabove20">
+				<div class="form-group col-xs-10">
+					<input 	type="text" 
+							class="form-control" 
+							id="name_search" 
+							aria-describedby="name-help"
+							placeholder="Enter name">
+					<small id="name-help" class="form-text text-muted">
+						We'll search for matches or partial matches.
+					</small>
+				</div>
+
+			</div>
+
+			<div class="row" id="more_options-button" (click)='onMoreOptions()'>
+				<div class="col-xs-8 text-center more_options-menu vcenter">
+					<span class="txt-reverse"><i>More Options&hellip;</i></span>
+				</div>
+			</div>
+
+			<div class="row spaceabove20" id="find_name-button" (click)='onFindName()'>
+				<div class="col-xs-9 col-xs-offset-1 vcenter">
+					<div class="find_name-menu txt-reverse">
+						Find Name
+					</div>					
+				</div>
+				<div class="col-xs-2 vcenter icon-right"></div>
+			</div>
+
+			<div class="row spaceabove20"></div>
+
+
+		</div>		
+		
+	</div>
+	<globalnav4></globalnav4>
+</div>
