@@ -1,7 +1,7 @@
 #background_2
 {
 	/*main page*/
-	background-image: url("/../../assets/images/backgrounds/background1a-centered.jpg");
+	background-image: url("../../assets/images/backgrounds/background1a-centered.jpg");
 	margin-left: -20px;
 	margin-right: -20px;
 	background-repeat: no-repeat;
