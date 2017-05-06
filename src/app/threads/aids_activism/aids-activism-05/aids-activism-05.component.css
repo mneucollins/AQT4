@@ -1,0 +1,13 @@
+#aa_bak3 {
+  background-image: url("../../../../assets/images/backgrounds/sewing_machines_bak_dark.jpg");
+  background-repeat: no-repeat;
+  background-position: 40% 0%;
+  background-attachment: fixed;
+  background-size: auto 100%;
+  min-height: 1024px;
+  text-align: center;
+  overflow: hidden;
+  margin-left: -20px;
+  margin-right: -20px;
+  background-color: #666666;
+}
