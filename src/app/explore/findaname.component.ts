@@ -3,7 +3,10 @@ import { Router } from '@angular/router';
 
 @Component({
     templateUrl: './findaname.component.html',
-    styleUrls: ['./findaname.component.css']
+    styleUrls: [
+        './explore-base.css',
+        './findaname.component.css'
+    ]
 })
 
 export class FindANameComponent{

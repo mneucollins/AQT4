@@ -3,7 +3,10 @@ import { Router } from '@angular/router';
 
 @Component({
     templateUrl: './explorequilt.component.html',
-    styleUrls: ['./explorequilt.component.css']
+    styleUrls: [
+        './explore-base.css',
+        './explorequilt.component.css'
+    ]
 })
 
 export class ExploreQuiltComponent{

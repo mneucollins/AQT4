@@ -3,7 +3,10 @@ import { Router } from '@angular/router';
 
 @Component({
     templateUrl: './explorestories.component.html',
-    styleUrls: ['./explorestories.component.css']
+    styleUrls: [
+        './explore-base.css',
+        './explorestories.component.css'
+        ]
 })
 
 export class ExploreStoriesComponent{

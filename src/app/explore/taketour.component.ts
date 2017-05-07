@@ -7,7 +7,10 @@ import { TourService } from '../services/tours.service';
 
 @Component({
     templateUrl: './taketour.component.html',
-    styleUrls: ['./taketour.component.css'],
+    styleUrls: [
+        './explore-base.css',
+        './taketour.component.css'
+    ],
     providers: [TourService],
 
 })

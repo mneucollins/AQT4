@@ -1,0 +1,13 @@
+#background_2 {
+  /*explore page*/
+    background-image: url("../../assets/images/backgrounds/background2.jpg");
+    background-repeat: no-repeat;
+    background-position: 40% 0%;
+    background-attachment: fixed;
+    background-color: #d9708f;
+    min-height: 1024px;
+    text-align: center;
+    overflow: hidden; 
+	margin-left: -20px;
+	margin-right: -20px;
+}
