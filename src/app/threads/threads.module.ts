@@ -14,7 +14,6 @@ import { AidsActivism06Component } from './aids-activism/aids-activism-06/aids-a
 import { AidsActivism07Component } from './aids-activism/aids-activism-07/aids-activism-07.component';
 import { AidsActivism08Component } from './aids-activism/aids-activism-08/aids-activism-08.component';
 import { AidsActivism09Component } from './aids-activism/aids-activism-09/aids-activism-09.component';
-import { AidsActivism10Component } from './aids-activism/aids-activism-10/aids-activism-10.component';
 // import { AidsActivism05Component } from './aids-activism/aids_activism_05.component';
 
 
@@ -30,7 +29,6 @@ import { AidsActivism10Component } from './aids-activism/aids-activism-10/aids-a
         AidsActivism07Component,
         AidsActivism08Component,
         AidsActivism09Component,
-        AidsActivism10Component,
     ],
 
     imports:[
@@ -47,7 +45,6 @@ import { AidsActivism10Component } from './aids-activism/aids-activism-10/aids-a
             { path: 'aids-activism-07', component: AidsActivism07Component },
             { path: 'aids-activism-08', component: AidsActivism08Component },
             { path: 'aids-activism-09', component: AidsActivism09Component },
-            { path: 'aids-activism-10', component: AidsActivism10Component },
         ])
     ],
     providers:[]
