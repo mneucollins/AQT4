@@ -1,0 +1,39 @@
+
+
+#audioplayer {
+  width:80%;
+}
+
+.light_bak {
+  background-color: #cccccc;
+  opacity: .7;
+  padding: 10px;
+}
+
+.body_text {
+  font-size: 2em;
+}
+
+/*generic smartphone in landscape mode*/
+@media only screen 
+    and (min-width: 320px) 
+    and (max-width: 736px) 
+    and (orientation: landscape) {
+      .title_text{
+            font-size: 2.5em;
+            margin-top: 5%;
+            margin-bottom: 10px;
+      }
+    }
+/*generic smartphone in portrait mode*/
+@media only screen 
+    and (min-width: 320px) 
+    and (max-width: 736px) 
+    and (orientation: portrait) {
+      .title_text{
+        margin-top: 100px;
+        margin-left: 30px;
+        margin-bottom:30px;
+        font-size: 2em;
+      }
+    }

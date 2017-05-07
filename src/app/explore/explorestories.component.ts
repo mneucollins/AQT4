@@ -10,7 +10,7 @@ export class ExploreStoriesComponent{
     constructor ( private _router: Router){};
 
     onActivism(): void {
-        this._router.navigate(['/aids_activism_01']);
+        this._router.navigate(['/aids-activism-01']);
     }
 
     onLatino(): void {
