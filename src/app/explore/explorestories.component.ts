@@ -29,6 +29,7 @@ export class ExploreStoriesComponent{
     }
 
     onHealing(): void {
+        this._router.navigate(['/healing-01']);
     }
 
     onArts(): void {

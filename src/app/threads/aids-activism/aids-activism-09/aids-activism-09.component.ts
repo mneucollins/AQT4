@@ -5,7 +5,8 @@ import { Router } from '@angular/router';
   selector: 'app-aids-activism-09',
   templateUrl: './aids-activism-09.component.html',
   styleUrls: [
-    '../aids-activism-base.css', 
+    '../../threads-base.css',
+    '../aids-activism-base.css',
     './aids-activism-09.component.css'
     ]
 })
