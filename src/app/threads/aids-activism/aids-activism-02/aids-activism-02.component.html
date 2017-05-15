@@ -1,7 +1,14 @@
 <div id="aa_bak2"><!--background-->
-	<div>
-		<div id="navback" (click)='onNavBack()'></div>
-		<div class="row spaceabove100">
+    <div class="container">
+        <div class = "row">
+            <div id="navback" class="col-xs-1" (click)='onNavBack()'></div>
+                <div class="col-xs-offset-1 col-xs-10">
+                    <div class="heading">&nbsp;</div>
+                </div>
+            <div id="navforward" class="col-xs-1" (click)='onNavForward()'></div>
+        </div>
+
+		<div id="textblock" class="row">
 			<div class="col-xs-offset-1">
                 <div class="col-xs-11">
                 <p class="body_text">
@@ -13,5 +20,7 @@
                 </div>
 			</div>
 		</div>
-		<div id="navforward" (click)='onNavForward()'></div>
-	</div>
+        <div class= "icon-stitch-text-reverse" (click)='onThreads()'></div>
+    </div>
+
+</div>

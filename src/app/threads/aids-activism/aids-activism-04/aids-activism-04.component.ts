@@ -25,4 +25,8 @@ export class AidsActivism04Component implements OnInit {
         this._router.navigate(['/aids-activism-03']);
     }
 
+    onThreads(): void {
+      this._router.navigate(['/threads']);
+    }
+
 }

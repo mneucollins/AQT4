@@ -20,6 +20,11 @@ export class AidsActivism01Component implements OnInit {
     onNavForward(): void {
         this._router.navigate(['/aids-activism-02']);
     }
+    
+    onThreads(): void {
+      this._router.navigate(['/threads']);
+    }
+
 }
 
 

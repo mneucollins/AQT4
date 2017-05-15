@@ -2,27 +2,24 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-aids-activism-09',
-  templateUrl: './aids-activism-09.component.html',
-  styleUrls: [
+  selector: 'app-aids-activism-end',
+  templateUrl: './aids-activism-end.component.html',
+  styleUrls:  [
     '../../threads-base.css',
     '../aids-activism-base.css',
-    './aids-activism-09.component.css'
+    './aids-activism-end.component.css'
     ]
 })
-export class AidsActivism09Component implements OnInit {
+export class AidsActivismEndComponent implements OnInit {
 
   constructor( private _router: Router ) { };
 
   ngOnInit() {
   }
-  onNavForward(): void {
-      this._router.navigate(['/aids-activism-end']);
-  }
+
   onNavBack(): void {
       this._router.navigate(['/aids-activism-08']);
   }
-
   onThreads(): void {
       this._router.navigate(['/threads']);
   }

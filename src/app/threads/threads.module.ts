@@ -14,6 +14,7 @@ import { AidsActivism06Component } from './aids-activism/aids-activism-06/aids-a
 import { AidsActivism07Component } from './aids-activism/aids-activism-07/aids-activism-07.component';
 import { AidsActivism08Component } from './aids-activism/aids-activism-08/aids-activism-08.component';
 import { AidsActivism09Component } from './aids-activism/aids-activism-09/aids-activism-09.component';
+import { AidsActivismEndComponent } from './aids-activism/aids-activism-end/aids-activism-end.component';
 import { Healing01Component } from './healing/healing-01/healing-01.component';
 import { Healing02Component } from './healing/healing-02/healing-02.component';
 import { Healing03Component } from './healing/healing-03/healing-03.component';
@@ -42,6 +43,7 @@ import { HealingEndComponent } from './healing/healing-end/healing-end.component
         AidsActivism07Component,
         AidsActivism08Component,
         AidsActivism09Component,
+        AidsActivismEndComponent,
         Healing01Component,
         Healing02Component,
         Healing03Component,
@@ -71,6 +73,7 @@ import { HealingEndComponent } from './healing/healing-end/healing-end.component
             { path: 'aids-activism-07', component: AidsActivism07Component },
             { path: 'aids-activism-08', component: AidsActivism08Component },
             { path: 'aids-activism-09', component: AidsActivism09Component },
+            { path: 'aids-activism-end', component: AidsActivismEndComponent },
             { path: 'healing-01', component: Healing01Component },
             { path: 'healing-02', component: Healing02Component },
             { path: 'healing-03', component: Healing03Component },

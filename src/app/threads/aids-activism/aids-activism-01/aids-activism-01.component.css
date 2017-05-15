@@ -3,8 +3,8 @@
   background-repeat: no-repeat;
   background-position: 40% 0%;
   background-attachment: fixed;
-  /*background-size: auto 100%;*/
-  min-height: 1024px;
+  background-size: auto 100%;
+  min-height: 1200px;
   text-align: center;
   overflow: hidden;
   margin-left: -20px;
@@ -23,6 +23,9 @@
       .title_text{
         font-size: 3.8em;
         margin-top: 5%;
+      }
+      #aa_bak1 {
+          background-size: auto 100%;
       }
     }
 
