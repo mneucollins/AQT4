@@ -10,6 +10,7 @@ import { StartComponent } from './start/start.component';
 import { ExploreModule } from './explore/explore.module';
 import { ParticipateModule } from './participate/participate.module';
 import { ThreadsModule } from './threads/threads.module';
+import { ThreadModule } from './thread/thread.module';
 import { SharedModule } from './shared/shared.module';
 
 import { TakeTourComponent } from './explore/taketour.component';
@@ -31,6 +32,7 @@ import { TakeTourComponent } from './explore/taketour.component';
     SharedModule,
     ParticipateModule,
     ThreadsModule,
+    ThreadModule
   ],
 
 
