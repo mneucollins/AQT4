@@ -4,7 +4,7 @@ import { Router } from '@angular/router';
 @Component({
     templateUrl: './findmoreoptions.component.html',
     styleUrls: [
-        './explore-base.css',
+        '../explore-base.css',
         './findmoreoptions.component.css'
     ]
 })

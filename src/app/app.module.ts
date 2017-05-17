@@ -12,7 +12,7 @@ import { ParticipateModule } from './participate/participate.module';
 import { ThreadsModule } from './threads/threads.module';
 import { SharedModule } from './shared/shared.module';
 
-import { TakeTourComponent } from './explore/taketour.component';
+import { TakeTourComponent } from './explore/take-tour/taketour.component';
 
 
 @NgModule({

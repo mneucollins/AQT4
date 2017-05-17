@@ -1,14 +1,14 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { OnInit } from '@angular/core';
-import { TourService } from '../services/tours.service';
+import { TourService } from '../../services/tours.service';
 
 
 
 @Component({
     templateUrl: './taketour.component.html',
     styleUrls: [
-        './explore-base.css',
+        '../explore-base.css',
         './taketour.component.css'
     ],
     providers: [TourService],

@@ -8,15 +8,15 @@ import { HttpModule } from '@angular/http'
 import { SharedModule } from '../shared/shared.module';
 
 import { ExploreComponent } from './explore.component';
-import { ExploreQuiltComponent } from './explorequilt.component';
+import { ExploreQuiltComponent } from './explore-quilt/explorequilt.component';
 import { ExploreStoriesComponent } from './explorestories.component';
 import { ViewRandomComponent } from './viewrandom.component';
 import { ViewBlockComponent } from './viewblock.component';
 
-import { TakeTourComponent } from './taketour.component';
+import { TakeTourComponent } from './take-tour/taketour.component';
 import { ViewTourComponent } from './viewtour.component';
-import { FindANameComponent } from './findaname.component';
-import { FindMoreOptionsComponent } from './findmoreoptions.component';
+import { FindANameComponent } from './find-name/findaname.component';
+import { FindMoreOptionsComponent } from './find-name/findmoreoptions.component';
 
 
 
