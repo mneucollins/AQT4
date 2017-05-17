@@ -5,7 +5,10 @@ import { BlockService } from '../services/block.service';
 
 @Component({
     templateUrl: './viewrandom.component.html',
-    styleUrls: ['./viewrandom.component.css'],
+    styleUrls: [
+        './explore-base.css',
+        './viewrandom.component.css'
+    ],
     providers: [BlockService],
 })
 

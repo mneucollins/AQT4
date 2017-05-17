@@ -5,7 +5,10 @@ import { Router } from '@angular/router';
 
 @Component({
     templateUrl: './viewtour.component.html',
-    styleUrls: ['./viewtour.component.css']
+    styleUrls: [
+        'explore-base.css',
+        './viewtour.component.css'
+    ]
 })
 
 export class ViewBlockComponent implements OnInit {

@@ -3,7 +3,10 @@ import { Router } from '@angular/router';
 
 @Component({
     templateUrl: './findmoreoptions.component.html',
-    styleUrls: ['./findmoreoptions.component.css']
+    styleUrls: [
+        './explore-base.css',
+        './findmoreoptions.component.css'
+    ]
 })
 
 export class FindMoreOptionsComponent{

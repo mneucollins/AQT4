@@ -3,14 +3,17 @@ import { Router } from '@angular/router';
 
 @Component({
     templateUrl: './explorestories.component.html',
-    styleUrls: ['./explorestories.component.css']
+    styleUrls: [
+        './explore-base.css',
+        './explorestories.component.css'
+        ]
 })
 
 export class ExploreStoriesComponent{
     constructor ( private _router: Router){};
 
     onActivism(): void {
-        this._router.navigate(['/aids_activism_01']);
+        this._router.navigate(['/aids-activism-01']);
     }
 
     onLatino(): void {
@@ -26,6 +29,7 @@ export class ExploreStoriesComponent{
     }
 
     onHealing(): void {
+        this._router.navigate(['/healing-01']);
     }
 
     onArts(): void {

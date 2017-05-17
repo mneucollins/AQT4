@@ -1,15 +1,4 @@
-#background_2 {
-  /*explore page*/
-    background-image: url("../../assets/images/backgrounds/background2.jpg");
-    background-repeat: no-repeat;
-    background-position: 40% 0%;
-    background-attachment: fixed;
-    min-height: 800px;
-    text-align: center;
-    overflow: hidden; 
-	margin-left: -20px;
-	margin-right: -20px;
-}
+
 
 .explore_stories-heading {
   text-align: left;
@@ -21,23 +10,29 @@
   margin-top: 5%;
 }
 
+.threads{
+  color: #9f7ad1;
+  font-size: 1.5em;
+}
+
 /*buttons as id's in case we need to target them*/
 #aids_activism-button, #latino-button, #african_american-button, 
 #aids_couples-button, #healing-button, #women-button, #theater_arts-button, 
 #families-button, #community-button, #children-button {
-  width: 110%;
-  top: 40%;
+  width: 102%;
   padding-left: 10%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 6px;
+  padding-bottom: 4px;
+  /*top: 40%;
   margin-left: -15px;
-  /*margin-top: 10px;*/
+  margin-right: -30px;
+  margin-top: 10px;*/
   background-color: #F495B4; 
   }
 
 .button-label {
   font-size: 1.4em;
-  line-height: 1.9em;
+  line-height: 1.4em;
   text-align: left;
   text-transform: uppercase;
   padding-top: 1%;
@@ -52,6 +47,7 @@
   text-transform: uppercase;
   padding-top: 1%;
   padding-bottom: 1%; }
+
 
 /*generic smartphone in portrait mode*/
 @media only screen 
