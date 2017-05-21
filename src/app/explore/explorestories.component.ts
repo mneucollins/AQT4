@@ -16,6 +16,14 @@ export class ExploreStoriesComponent{
         this._router.navigate(['/aids-activism-01']);
     }
 
+    onHealing(): void {
+        this._router.navigate(['/healing-01']);
+    }
+
+    onWomen(): void {
+        this._router.navigate(['/aids-women-01']);
+    }
+
     onLatino(): void {
     }
 
@@ -23,13 +31,6 @@ export class ExploreStoriesComponent{
     }
 
     onCouples(): void {
-    }
-
-    onWomen(): void {
-    }
-
-    onHealing(): void {
-        this._router.navigate(['/healing-01']);
     }
 
     onArts(): void {

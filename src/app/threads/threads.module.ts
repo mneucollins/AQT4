@@ -28,8 +28,20 @@ import { Healing10Component } from './healing/healing-10/healing-10.component';
 import { Healing11Component } from './healing/healing-11/healing-11.component';
 import { Healing12Component } from './healing/healing-12/healing-12.component';
 import { HealingEndComponent } from './healing/healing-end/healing-end.component';
-// import { AidsActivism05Component } from './aids-activism/aids_activism_05.component';
-
+import { AidsWomen01Component } from './aids-women/aids-women-01/aids-women-01.component';
+import { AidsWomen02Component } from './aids-women/aids-women-02/aids-women-02.component';
+import { AidsWomen03Component } from './aids-women/aids-women-03/aids-women-03.component';
+import { AidsWomen04Component } from './aids-women/aids-women-04/aids-women-04.component';
+import { AidsWomen05Component } from './aids-women/aids-women-05/aids-women-05.component';
+import { AidsWomen06Component } from './aids-women/aids-women-06/aids-women-06.component';
+import { AidsWomen07Component } from './aids-women/aids-women-07/aids-women-07.component';
+import { AidsWomen08Component } from './aids-women/aids-women-08/aids-women-08.component';
+import { AidsWomen09Component } from './aids-women/aids-women-09/aids-women-09.component';
+import { AidsWomen10Component } from './aids-women/aids-women-10/aids-women-10.component';
+import { AidsWomen11Component } from './aids-women/aids-women-11/aids-women-11.component';
+import { AidsWomen12Component } from './aids-women/aids-women-12/aids-women-12.component';
+import { AidsWomen13Component } from './aids-women/aids-women-13/aids-women-13.component';
+import { AidsWomenEndComponent } from './aids-women/aids-women-end/aids-women-end.component';
 
 
 @NgModule({
@@ -57,6 +69,20 @@ import { HealingEndComponent } from './healing/healing-end/healing-end.component
         Healing11Component,
         Healing12Component,
         HealingEndComponent,
+        AidsWomen01Component,
+        AidsWomen02Component,
+        AidsWomen03Component,
+        AidsWomen04Component,
+        AidsWomen05Component,
+        AidsWomen06Component,
+        AidsWomen07Component,
+        AidsWomen08Component,
+        AidsWomen09Component,
+        AidsWomen10Component,
+        AidsWomen11Component,
+        AidsWomen12Component,
+        AidsWomen13Component,
+        AidsWomenEndComponent,
     ],
 
     imports:[
@@ -87,6 +113,20 @@ import { HealingEndComponent } from './healing/healing-end/healing-end.component
             { path: 'healing-11', component: Healing11Component },
             { path: 'healing-12', component: Healing12Component },
             { path: 'healing-end', component: HealingEndComponent },
+            { path: 'aids-women-01', component: AidsWomen01Component },
+            { path: 'aids-women-02', component: AidsWomen02Component },
+            { path: 'aids-women-03', component: AidsWomen03Component },
+            { path: 'aids-women-04', component: AidsWomen04Component },
+            { path: 'aids-women-05', component: AidsWomen05Component },
+            { path: 'aids-women-06', component: AidsWomen06Component },
+            { path: 'aids-women-07', component: AidsWomen07Component },
+            { path: 'aids-women-08', component: AidsWomen08Component },
+            { path: 'aids-women-09', component: AidsWomen09Component },
+            { path: 'aids-women-10', component: AidsWomen10Component },
+            { path: 'aids-women-11', component: AidsWomen11Component },
+            { path: 'aids-women-12', component: AidsWomen12Component },
+            { path: 'aids-women-13', component: AidsWomen13Component },
+            { path: 'aids-women-end', component: AidsWomenEndComponent },
         ])
     ],
     providers:[]
