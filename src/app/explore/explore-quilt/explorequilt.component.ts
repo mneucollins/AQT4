@@ -4,7 +4,7 @@ import { Router } from '@angular/router';
 @Component({
     templateUrl: './explorequilt.component.html',
     styleUrls: [
-        './explore-base.css',
+        '../explore-base.css',
         './explorequilt.component.css'
     ]
 })
