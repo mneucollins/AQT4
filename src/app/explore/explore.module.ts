@@ -10,7 +10,7 @@ import { SharedModule } from '../shared/shared.module';
 import { ExploreComponent } from './explore.component';
 import { ExploreQuiltComponent } from './explore-quilt/explorequilt.component';
 import { ExploreStoriesComponent } from './explorestories.component';
-import { ViewRandomComponent } from './viewrandom.component';
+import { ViewRandomComponent } from './viewrandom/viewrandom.component';
 import { ViewBlockComponent } from './viewblock.component';
 
 import { TakeTourComponent } from './take-tour/taketour.component';

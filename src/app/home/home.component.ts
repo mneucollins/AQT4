@@ -6,6 +6,18 @@ import { Component } from '@angular/core';
 })
 
 export class HomeComponent {
-    public pageTitle: string = 'AQT Home';
+    public pageTitle: string = 'AQT Home';    
     logoWidth: number = 50;
+
+    showAbout: boolean = false;
+    toggleAbout() {
+        this.showAbout = !this.showAbout;
+    }
+
+    onCloseAbout() {
+
+    }
+
+    
+
 }

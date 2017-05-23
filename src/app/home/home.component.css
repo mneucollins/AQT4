@@ -27,6 +27,10 @@
   width: 50%;
 }
 
+.about{
+    padding-top: 10%;
+}
+
 
 @media screen and (orientation: landscape) {
     .logoContainer {
