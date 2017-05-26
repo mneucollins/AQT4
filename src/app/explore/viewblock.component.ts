@@ -4,10 +4,10 @@ import { BlockService } from '../services/block.service';
 import { Router } from '@angular/router';
 
 @Component({
-    templateUrl: './viewtour.component.html',
+    templateUrl: './viewblock.component.html',
     styleUrls: [
         'explore-base.css',
-        './viewtour.component.css'
+        './viewblock.component.css'
     ]
 })
 
