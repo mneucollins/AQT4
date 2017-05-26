@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { OnInit } from '@angular/core';
 import { TourService } from '../../services/tours.service';
-import { ITour } from '../../interfaces/tour'
+import { ITour } from '../../interfaces/tour';
 
 
 @Component({

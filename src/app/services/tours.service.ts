@@ -24,8 +24,11 @@ export class TourService {
     }
 
     getTour(id: number): Observable<ITour> {
+        console.log('id:'+id);
         return this.getTours()
-            .map((tours: ITour[]) => tours.find(t => t.tourId === id));
+            .map((tours: ITour[]) => tours.find(t => t.tourId === id))
+            .do (data => console.log( 'tour: '+ JSON.stringify(data)));
+
     }
 
     private handleError (error:Response){

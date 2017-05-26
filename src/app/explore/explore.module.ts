@@ -44,7 +44,7 @@ import { FindMoreOptionsComponent } from './find-name/findmoreoptions.component'
             { path: 'explore_stories', component: ExploreStoriesComponent },
             { path: 'view_random', component: ViewRandomComponent },
             { path: 'take_a_tour', component: TakeTourComponent },
-            { path: 'view_tour/:tourID', component: ViewTourComponent },
+            { path: 'view_tour/:tourId', component: ViewTourComponent },
             { path: 'find_a_name', component: FindANameComponent },
             { path: 'find_more_options', component: FindMoreOptionsComponent },
             // { path: 'exploreRandom', component: ExploreRandomComponent }
