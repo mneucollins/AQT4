@@ -12,7 +12,11 @@
 			</div>
 		</div>
 
-		<div class="row-fluid spaceabove20" >
+		<div class="row-fluid spaceabove100" >
+			<!--temp add space to the left-->
+			<div class="col-sm-2">
+				&nbsp;
+			</div>
 			<div *ngFor='let tour of tours'>
 				<div class="col-sm-3 tourbox">
 					<a [routerLink]="['/view_tour', tour.tourId ]">	

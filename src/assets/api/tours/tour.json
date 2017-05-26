@@ -3,27 +3,27 @@
         "tourId": 100,
         "tourButtonImgUrl":"assets/images/tourbuttons/Tour1.jpg",
         "tourButtonCaption":"The Origins <br />of the Quilt <br />and its Growth<br /> over Time",
-        "tourCaption": "Origins of the Quilt and its growth over time",
+        "tourCaption": "The Origins of the Quilt and its growth over time",
         "credits": "",
         "vimeoId": 218487366,
-        "embedCode": "<iframe src='https://player.vimeo.com/video/218487366' width='640' height='360' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+        "embedCode": "<iframe src='https://player.vimeo.com/video/218487366' width='100%' height='529' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
     },
     {
         "tourId": 110,
         "tourButtonImgUrl":"assets/images/tourbuttons/ClarissaCrabtree.jpg",
         "tourButtonCaption":"Clarissa Crabtree - <br />Tending the Quilt<br />with Passion<br />&nbsp;",
-        "tourCaption":"Clarissa Crabtree interview",
+        "tourCaption":"Clarissa Crabtree  - Tending the Quilt with Passion",
         "credits": "",
         "vimeoId": 217741918,
-        "embedCode": "<iframe src='https://player.vimeo.com/video/217741918' width='640' height='360' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+        "embedCode": "<iframe src='https://player.vimeo.com/video/217741918' width='100%' height='529' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
     },
     {
         "tourId": 120,
         "tourButtonImgUrl":"assets/images/tourbuttons/SallyHipscher.jpg",
         "tourButtonCaption":"Sally Hipscher - <br />Fostering a <br />New Generation <br />of AIDS Activists",
-        "tourCaption": "Sally Hipscher interview",
+        "tourCaption": "Sally Hipscher  - Fostering a New Generation of AIDS Activists",
         "credits": "",
         "vimeoId": 217741791,
-        "embedCode": "<iframe src='https://player.vimeo.com/video/217741791' width='640' height='360' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+        "embedCode": "<iframe src='https://player.vimeo.com/video/217741791' width='100%' height='529' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
     }
 ]

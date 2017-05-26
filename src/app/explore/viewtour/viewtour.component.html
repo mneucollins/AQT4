@@ -1,7 +1,24 @@
-<p>
-  viewtour works! Passing in tour by parameter
-</p>
+<div id="background_2">
+	<!--<div class="container-fluid">-->
 
-<pre *ngIf='tour'>
-{{tour.tourButtonImgUrl}}
-</pre>
+		<div *ngIf='tour'>
+      <div class="row">
+        <div class="col-xs-offset-1">
+          <!--<div class="pg-title ">-->
+            <div class="viewtour-heading">
+              <span class="txt-reverse">{{tour.tourCaption}}</span>
+            </div>
+          <!--</div>-->
+        </div>
+      </div>
+      <div class="row spaceabove40">
+          <div class="col-xs-offset-1 col-xs-10"
+            [innerHtml] = "tour.embedCode|safeHtml">
+          <!--{{tour.embedCode}}-->
+          </div>
+          <!--<iframe src='https://player.vimeo.com/video/217741918' width='640' height='360' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
+		</div>
+
+	<!--</div>-->
+	<globalnav4></globalnav4>
+</div>
