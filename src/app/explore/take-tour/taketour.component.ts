@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { OnInit } from '@angular/core';
 import { TourService } from '../../services/tours.service';
-
+import { ITour } from '../../interfaces/tour'
 
 
 @Component({
@@ -15,27 +15,16 @@ import { TourService } from '../../services/tours.service';
 
 })
 
-//export class TakeTourComponent implements OnInit{
-export class TakeTourComponent{
+export class TakeTourComponent implements OnInit{
 
-      tour: String;
-      
-      constructor ( private _router: Router, private TourService: TourService){};
-      
-//Conflict with eva
-//      ngOnInit(): void {
-//          this.getTour();
-//      }
-//      getTour(): void {
-          //this.tour = this.TourService.getDemoTour();
-          //this.PanelService.getRandomPanel().then(panel => this.panel = panel)
-          //this.heroService.getHeroes().then(heroes => this.heroes = heroes);
-//      }
-//=======
-    onViewTour(): void {
-        this._router.navigate(['/view_tour']);
-        // note: this is sandbox version
-        // final version should pass a parameter to identify the tour
+    tours: ITour[];
+    errorMessage:string;
+
+    constructor ( private _router: Router, private _tourService: TourService){};
+    ngOnInit():void {
+        this._tourService.getTours()
+            .subscribe(tours => this.tours = tours,
+                error => this.errorMessage = <any>error);    
     }
 
 }

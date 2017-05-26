@@ -12,31 +12,16 @@
 			</div>
 		</div>
 
-
-		<div class="row-fluid spaceabove20">
-			<div class="col-sm-3 tourbox" (click)=onOrigin>
-				<img src="assets/images/tourbuttons/Tour1.jpg"><br />
-				<div class="take_tour-menu txt-reverse text-center">The Origins <br />of the Quilt <br />and its Growth<br /> over Time</div>
-			</div>
-
-			<div class="col-sm-3 tourbox">
-				<img src="assets/images/tourbuttons/ClarissaCrabtree.jpg"><br />
-				<div class="take_tour-menu txt-reverse text-center">Clarissa Crabtree - <br />Tending the Quilt<br />with Passion<br />&nbsp;</div>
-			</div>
-
-			<div class="col-sm-3 tourbox">
-				<img src="assets/images/tourbuttons/SallyHipscher.jpg"><br />
-				<div class="take_tour-menu txt-reverse text-center">Sally Hipscher - <br />Fostering a <br />New Generation <br />of AIDS Activists</div>
-			</div>
-
-			<div class="col-sm-3 tourbox">
-				<img src="assets/images/tourbuttons/Tour1.jpg"><br />
-				<div class="take_tour-menu txt-reverse text-center">Interview with <br />Diane Reeve<br />&nbsp;<br />&nbsp;</div>
-			</div>
-
-			<div class="col-sm-3 tourbox">
-				<img src="assets/images/tourbuttons/Tour1.jpg"><br />
-				<div class="take_tour-menu txt-reverse text-center">The Next Video<br />&nbsp;<br />&nbsp;<br />&nbsp;</div>
+		<div class="row-fluid spaceabove20" >
+			<div *ngFor='let tour of tours'>
+				<div class="col-sm-3 tourbox">
+					<a [routerLink]="['/view_tour', tour.tourId ]">	
+						<img [src]='tour.tourButtonImgUrl'>
+					</a>
+					<br />
+					<div class="take_tour-menu txt-reverse text-center"
+						[innerHTML] = 'tour.tourButtonCaption'></div>
+				</div>
 			</div>
 		</div>
 
