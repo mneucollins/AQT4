@@ -24,6 +24,21 @@
   /*width:92%;*/
 }
 
+#reset-container {
+  white-space: pre-line;
+}
+
+#reset-button {
+  background-color: white;
+  color: #EF4036;
+  margin-top: 15px;
+  line-height: 100%;
+  font-size: 1em;
+  display: inline-block;
+  padding: 2px;
+  clear: all;
+}
+
 #more_options-button {
   background-color: #F05A28;
   /*width:92%;*/

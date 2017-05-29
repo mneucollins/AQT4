@@ -6,12 +6,13 @@ import { Router } from '@angular/router';
     styleUrls: [
         '../explore-base.css',
         './findaname.component.css'
-    ]
+    ],
 })
 
 
 export class FindANameComponent{
     constructor ( private _router: Router){};
+    submitted = false;
 
     querytypes = ["Name", "Year", "Maker Name", "City", "Block ID"];
 
@@ -20,8 +21,19 @@ export class FindANameComponent{
         querystring: ""
     };
 
+    results = [];
+
     onFind(): void {
-        
+        this.submitted = true;
+        this.results = [this.model.querytype, this.model.querystring];
+
+    }
+
+    onReset(): void {
+        this.submitted = false;
+        this.model.querystring = "";
+        this.model.querytype = "Name";
+        this.results = [this.model.querytype, this.model.querystring];
     }
 
 

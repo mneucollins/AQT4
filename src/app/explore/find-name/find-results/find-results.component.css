@@ -1,0 +1,20 @@
+.results-pane {
+  margin-top: 30px;
+}
+
+#results-title {
+  color: white;
+  font: bolder;
+}
+
+.find-results {
+  color: white;
+  font-size: small;
+}
+
+.find-panel-result {
+  line-height:100%;
+  margin-left: 20px;
+  padding: 5px;
+  background-color: #F495B4;
+}

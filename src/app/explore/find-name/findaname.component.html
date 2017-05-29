@@ -54,6 +54,15 @@
 					</div>
 				</div>
 
+				<div id="reset-container">
+					<div *ngIf="this.submitted" id="reset-button" (click)='onReset()'>
+											Reset Search
+					</div>
+				</div>
+
+				<app-find-results [results] = "results" [display] = "submitted"></app-find-results>
+
+
 				<div class="row spaceabove20 spacebelow40"></div>
 			</div>
 		</div>
