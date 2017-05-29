@@ -9,15 +9,24 @@ import { Router } from '@angular/router';
     ]
 })
 
+
 export class FindANameComponent{
     constructor ( private _router: Router){};
-    
-    onFindName(): void {}
-    
 
-    onMoreOptions(): void {
-        this._router.navigate(['/find_more_options']);
+    querytypes = ["Name", "Year", "Maker Name", "City", "Block ID"];
+
+    model = {
+        querytype: "Name",
+        querystring: ""
+    };
+
+    onFind(): void {
+        
     }
 
+
+
+    // TODO: Remove this when we're done
+    get diagnostic() { return JSON.stringify(this.model); }
 
 }

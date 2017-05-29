@@ -30,6 +30,13 @@
 }
 
 
+.dropdown {
+  display: inline-block;
+  color: white;
+  background-color: #F495B4;
+  box-shadow: none;
+}
+
 
 .find_name-menu, .more_options-menu {
   font-size: 1.3em;
@@ -48,7 +55,7 @@
 
 #more_options-button {
   background-color: #F05A28;
-  text-align: center;  
+  text-align: center;
 
 }
 #more_otions-label {
