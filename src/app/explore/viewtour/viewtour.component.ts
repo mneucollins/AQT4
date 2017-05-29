@@ -3,6 +3,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { TourService } from '../../services/tours.service';
 import { ITour } from '../../interfaces/tour';
 
+
 @Component({
     templateUrl: './viewtour.component.html',
     styleUrls: [
