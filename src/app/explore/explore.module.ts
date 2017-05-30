@@ -17,6 +17,8 @@ import { TakeTourComponent } from './take-tour/taketour.component';
 import { ViewTourComponent } from './viewtour/viewtour.component';
 import { FindANameComponent } from './find-name/findaname.component';
 import { FindMoreOptionsComponent } from './find-name/findmoreoptions.component';
+import {FindResultsComponent} from './find-name/find-results/find-results.component';
+
 
 
 
@@ -31,6 +33,7 @@ import { FindMoreOptionsComponent } from './find-name/findmoreoptions.component'
         ViewTourComponent,
         FindANameComponent,
         FindMoreOptionsComponent,
+        FindResultsComponent
         // ExploreRandomComponent,
     ],
 

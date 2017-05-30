@@ -6,18 +6,39 @@ import { Router } from '@angular/router';
     styleUrls: [
         '../explore-base.css',
         './findaname.component.css'
-    ]
+    ],
 })
+
 
 export class FindANameComponent{
     constructor ( private _router: Router){};
-    
-    onFindName(): void {}
-    
+    submitted = false;
 
-    onMoreOptions(): void {
-        this._router.navigate(['/find_more_options']);
+    querytypes = ["Name", "Year", "Maker Name", "City", "Block ID"];
+
+    model = {
+        querytype: "Name",
+        querystring: ""
+    };
+
+    results = [];
+
+    onFind(): void {
+        this.submitted = true;
+        this.results = [this.model.querytype, this.model.querystring];
+
     }
 
+    onReset(): void {
+        this.submitted = false;
+        this.model.querystring = "";
+        this.model.querytype = "Name";
+        this.results = [this.model.querytype, this.model.querystring];
+    }
+
+
+
+    // TODO: Remove this when we're done
+    get diagnostic() { return JSON.stringify(this.model); }
 
 }
