@@ -1,9 +1,11 @@
 <!--<h1>AIDS Quilt Touch</h1>-->
 <div id='background_1'>
     <div class='logoContainer'>
-        <a [routerLink]="['/start']"><img src = "assets/images/AQTLogoText-400.png" > </a>
+        <!--<a [routerLink]="['/start']"><img src = "assets/images/AQTLogoText-400.png" > </a>-->
+        <a [routerLink]="['/explore']"><img src = "assets/images/AQTLogoText-400.png" > </a>
     </div>
-    <div class="about"><img src = "assets/images/icons/about-lg.png" (click)='toggleAbout()'><div>
+    <div class="about">
+        <a [routerLink]="['/about']"><img src = "assets/images/icons/about-lg.png"><div>
 </div>
-<div id="abouttext" [style.visibility]="(showAbout) ? 'visible' : 'hidden' "> <img src = "assets/images/backgrounds/sq300.png" ></div>
+
 

@@ -9,7 +9,7 @@ import { SharedModule } from '../shared/shared.module';
 
 import { ExploreComponent } from './explore.component';
 import { ExploreQuiltComponent } from './explore-quilt/explorequilt.component';
-import { ExploreStoriesComponent } from './explorestories.component';
+import { ThreadsComponent } from '../threads/threads.component';
 import { ViewRandomComponent } from './viewrandom/viewrandom.component';
 import { ViewBlockComponent } from './viewblock.component';
 
@@ -24,7 +24,7 @@ import { FindMoreOptionsComponent } from './find-name/findmoreoptions.component'
     declarations:[
         ExploreComponent,
         ExploreQuiltComponent,
-        ExploreStoriesComponent,
+        ThreadsComponent,
         ViewRandomComponent,
         ViewBlockComponent,
         TakeTourComponent,
@@ -41,7 +41,7 @@ import { FindMoreOptionsComponent } from './find-name/findmoreoptions.component'
         RouterModule.forChild([
             { path: 'explore', component: ExploreComponent },
             { path: 'explore_the_quilt', component: ExploreQuiltComponent },
-            { path: 'explore_stories', component: ExploreStoriesComponent },
+            { path: 'threads', component: ThreadsComponent },
             { path: 'view_random', component: ViewRandomComponent },
             { path: 'take_a_tour', component: TakeTourComponent },
             { path: 'view_tour/:tourId', component: ViewTourComponent },

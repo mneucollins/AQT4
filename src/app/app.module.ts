@@ -13,7 +13,10 @@ import { ThreadsModule } from './threads/threads.module';
 import { SharedModule } from './shared/shared.module';
 
 import { TakeTourComponent } from './explore/take-tour/taketour.component';
+import { ThreadsComponent } from  './threads/threads.component';
+import { AboutComponent } from './home/about/about.component';
 
+import { ExploreComponent } from './explore/explore.component';
 
 @NgModule({
   imports: [
@@ -21,9 +24,12 @@ import { TakeTourComponent } from './explore/take-tour/taketour.component';
     RouterModule.forRoot ([
       { path: 'home', component: HomeComponent },
       { path: 'start', component: StartComponent },
+      { path: 'explore', component: ExploreComponent },
       // { path: 'favorite', component: FavoriteComponent },
       // { path: 'stitch', component: StitchComponent },
       { path: 'tour', component: TakeTourComponent },
+      { path: 'thread', component: ThreadsComponent },
+      { path: 'about', component: AboutComponent },
       { path: '', redirectTo: 'home', pathMatch: 'full'},
       { path: '**', redirectTo: 'home', pathMatch: 'full'}
     ]),
@@ -38,6 +44,7 @@ import { TakeTourComponent } from './explore/take-tour/taketour.component';
     AppComponent,
     HomeComponent,
     StartComponent,
+    AboutComponent,
     // GlobalNavComponent,
   ],
   providers: [{provide: APP_BASE_HREF, useValue: '/'}],

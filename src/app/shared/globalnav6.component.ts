@@ -16,6 +16,11 @@ export class GlobalNav6Component {
     onHome(): void {
         this._router.navigate(['/home']);
     }
+    
+    onThread(): void {
+        this._router.navigate(['/thread']);
+    }
+  
     onBack(): void {
         this._location.back();
     }

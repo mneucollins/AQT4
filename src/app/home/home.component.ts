@@ -9,13 +9,12 @@ export class HomeComponent {
     public pageTitle: string = 'AQT Home';    
     logoWidth: number = 50;
 
-    showAbout: boolean = false;
-    toggleAbout() {
-        this.showAbout = !this.showAbout;
-    }
-
-    onCloseAbout() {
-
-    }   
+    // 'about' is now implemented as a separate module because of difficulty stopping embedded video
+    // hideAbout: boolean = true;
+    // toggleAbout() {
+    //    this.hideAbout = !this.hideAbout;
+    // }
+    // onCloseAbout() {
+    // }   
 
 }

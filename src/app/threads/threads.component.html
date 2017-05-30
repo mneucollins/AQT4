@@ -1,5 +1,114 @@
-<div class = 'thread_head'>{{threadTitle}}</div>
-    <div class='container'>
-        <router-outlet></router-outlet>
-    </div>
-</div> 
+<!--From AQT...needs refactoring for AQT2-->
+<div id="background_2">
+	<div class="aqtnav">
+
+		<!--<div class="row spaceabove20">-->
+		<div class="row">
+			<div class="col-xs-offset-1">
+				<!--<div class="pg-title ">-->
+					<div class="explore_stories-heading">
+						<span class = "threads">Threads::<br /></span>
+						<span class= "txt-yellow-green">Explore Stories </span>
+						<span class="txt-reverse">About The Quilt</span>
+					</div>
+				<!--</div>-->
+			</div>
+		</div>
+
+
+		<div class="row spaceabove10 button-active" id="aids_activism-button" (click)='onActivism()'>
+			<div class="col-xs-10 button-label vcenter">
+				<div class="explore_the_quilt-menu txt-reverse ">
+					AIDS Activism
+				</div>
+			</div>
+			<div class="col-xs-1 icon-right vcenter"></div>
+		</div>
+
+		<div class="row spaceabove10 button-active" id="healing-button" (click)='onHealing()'>
+			<div class="col-xs-10 button-label vcenter">
+				<div class="explore_the_quilt-menu txt-reverse ">
+					The Quilt and Healing
+				</div>
+			</div>
+			<div class="col-xs-1 icon-right vcenter"></div>
+		</div>
+
+		<div class="row spaceabove10 button-active" id="women-button" (click)='onWomen()'>
+			<div class="col-xs-10 button-label vcenter">
+				<div class="explore_the_quilt-menu txt-reverse ">
+					Women and AIDS
+				</div>
+			</div>
+			<div class="col-xs-1 icon-right vcenter"></div>
+		</div>
+
+		<div class="row spaceabove10 button-active" id="community-button" (click)='onCommunity()'>
+			<div class="col-xs-10 button-label vcenter">
+				<div class="explore_the_quilt-menu txt-reverse button-active">
+					AIDS and Community
+				</div>
+			</div>
+			<div class="col-xs-1 icon-right vcenter"></div>
+		</div>
+
+		<div class="row spaceabove10 button-inactive" id="families-button" (click)='onFamilies()'>
+			<div class="col-xs-10 button-label vcenter">
+				<div class="explore_the_quilt-menu txt-reverse  button-inactive">
+					AIDS and Families
+				</div>
+			</div>
+			<!--<div class="col-xs-1 icon-right vcenter"></div>-->
+		</div>
+
+		<div class="row spaceabove10 button-inactive" id="children-button" (click)='onChildren()'>
+			<div class="col-xs-10 button-label vcenter">
+				<div class="explore_the_quilt-menu txt-reverse button-inactive">
+					AIDS and Children
+				</div>
+			</div>
+			<!--<div class="col-xs-1 icon-right vcenter"></div>-->
+		</div>
+
+		<div class="row spaceabove10 button-inactive" id="theater_arts-button" (click)='onArts()'>
+			<div class="col-xs-10  button-label vcenter">
+				<div class="explore_the_quilt-menu txt-reverse  button-inactive">
+					The Theater and Arts Community
+				</div>
+			</div>
+			<!--<div class="col-xs-1 icon-right vcenter"></div>-->
+		</div>
+
+		<div class="row  spaceabove10 button-inactive" id="latino-button" (click)='onLatino()'>
+			<div class="col-xs-10 button-label vcenter">
+				<div class="explore_the_quilt-menu txt-reverse button-inactive">
+					Latino Experience
+				</div>
+			</div>
+			<!--<div class="col-xs-1 icon-right vcenter"></div>-->
+		</div>
+
+		<div class="row spaceabove10 button-inactive" id="african_american-button" (click)='onAfricanAmerican()'>
+			<div class="col-xs-10 button-label vcenter">
+				<div class="explore_the_quilt-menu txt-reverse button-inactive">
+					African-American Experience
+				</div>
+			</div>
+			<!--<div class="col-xs-1 icon-right vcenter"></div>-->
+		</div>
+
+		<div class="row spaceabove10 button-inactive" id="aids_couples-button" (click)='onCouples()'>
+			<div class="col-xs-10  button-label vcenter">
+				<div class="explore_the_quilt-menu txt-reverse button-inactive">
+					AIDS and Couples
+				</div>
+			</div>
+			<!--<div class="col-xs-1 icon-right vcenter"></div>-->
+		</div>
+
+
+		<div class="row spaceabove40 spacebelow40"></div>
+
+	</div>
+	<globalnav4></globalnav4>
+</div>

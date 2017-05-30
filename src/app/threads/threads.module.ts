@@ -42,6 +42,7 @@ import { AidsWomen11Component } from './aids-women/aids-women-11/aids-women-11.c
 import { AidsWomen12Component } from './aids-women/aids-women-12/aids-women-12.component';
 import { AidsWomen13Component } from './aids-women/aids-women-13/aids-women-13.component';
 import { AidsWomenEndComponent } from './aids-women/aids-women-end/aids-women-end.component';
+import { ThreadsComponent } from '../threads/threads.component';
 
 
 @NgModule({
@@ -83,13 +84,14 @@ import { AidsWomenEndComponent } from './aids-women/aids-women-end/aids-women-en
         AidsWomen12Component,
         AidsWomen13Component,
         AidsWomenEndComponent,
+        ThreadsComponent,
     ],
 
     imports:[
         HttpModule,
         SharedModule,
         RouterModule.forChild([
-            { path: 'threads', component: ExploreStoriesComponent },
+            { path: 'threads', component: ThreadsComponent },
             { path: 'aids-activism-01', component: AidsActivism01Component },
             { path: 'aids-activism-02', component: AidsActivism02Component },
             { path: 'aids-activism-03', component: AidsActivism03Component },

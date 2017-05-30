@@ -5,7 +5,9 @@ import { Location } from '@angular/common';
 @Component({
     selector: 'globalnav4',
     templateUrl: './globalnav4.component.html',
-    styleUrls: ['./globalnav4.component.css']
+    styleUrls: [
+        './globalnav4.component.css'
+        ]
 })
 
 export class GlobalNav4Component {
@@ -15,9 +17,14 @@ export class GlobalNav4Component {
     onHome(): void {
         this._router.navigate(['/home']);
     }
+    
     onBack(): void {
         this._location.back();
     }
+    onThread(): void {
+        this._router.navigate(['/thread']);
+    }
+
     onTour(): void {
         this._router.navigate(['/tour']);
     }
