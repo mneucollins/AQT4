@@ -17,7 +17,7 @@ export class ExploreComponent{
     }
 
     onExploreTheStories(): void {
-        this._router.navigate(['/explore_stories']);
+        this._router.navigate(['/threads']);
     }
 
 

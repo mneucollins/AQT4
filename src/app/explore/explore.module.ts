@@ -24,7 +24,7 @@ import { FindMoreOptionsComponent } from './find-name/findmoreoptions.component'
     declarations:[
         ExploreComponent,
         ExploreQuiltComponent,
-        ThreadsComponent,
+        // ThreadsComponent, declared in threads module
         ViewRandomComponent,
         ViewBlockComponent,
         TakeTourComponent,

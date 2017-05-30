@@ -25,6 +25,7 @@
 .logoContainer img {
   display: inline-block;
   width: 50%;
+  /*position: fixed;*/
 }
 
 
