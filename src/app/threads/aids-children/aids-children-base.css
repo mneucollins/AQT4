@@ -1,0 +1,20 @@
+#children_bak_light, #children_bak_dark {
+  background-repeat: no-repeat;
+  background-position: 40% 20%;
+  background-attachment: fixed;
+  background-size: 100% auto;
+  /*background-size: auto 110%;*/
+  min-height: 1200px;
+  text-align: center;
+  overflow: hidden;
+  margin-left: -20px;
+  margin-right: -20px;
+  background-color: #666666;
+}
+#children_bak_light {
+  background-image: url("../../../assets/images/backgrounds/aqt_stacks_bak_light.jpg");
+}
+
+#children_bak_dark {
+  background-image: url("../../../assets/images/backgrounds/aqt_stacks_bak_dark.jpg");
+}

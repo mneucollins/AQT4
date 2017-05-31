@@ -28,6 +28,10 @@ export class ThreadsComponent implements OnInit {
         this._router.navigate(['/aids-women-01']);
     }
 
+    onChildren(): void {
+        this._router.navigate(['/aids-children-01']);
+    }
+
     onLatino(): void {
     }
 
@@ -43,8 +47,6 @@ export class ThreadsComponent implements OnInit {
     onFamilies(): void {
     }
 
-    onChildren(): void {
-    }
 
     onCommunity(): void {
     }

@@ -1,0 +1,24 @@
+.title_text, .heading {
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 1.2em;
+    color: #D7DF23;
+}
+
+.title_text{
+    font-size: 6em;
+    margin-top: 0;
+    position: fixed;
+    text-shadow: 3px 3px 6px black;
+}
+
+.subtitle {
+    margin-top:18%;
+    position:fixed;
+    font-size: 2.5em;
+    color: white;
+    text-align: left;
+    /*margin-left: 25px;*/
+}

@@ -43,6 +43,16 @@ import { AidsWomen12Component } from './aids-women/aids-women-12/aids-women-12.c
 import { AidsWomen13Component } from './aids-women/aids-women-13/aids-women-13.component';
 import { AidsWomenEndComponent } from './aids-women/aids-women-end/aids-women-end.component';
 import { ThreadsComponent } from '../threads/threads.component';
+import { AidsChildren01Component } from './aids-children/aids-children-01/aids-children-01.component';
+import { AidsChildren02Component } from './aids-children/aids-children-02/aids-children-02.component';
+import { AidsChildren03Component } from './aids-children/aids-children-03/aids-children-03.component';
+import { AidsChildren04Component } from './aids-children/aids-children-04/aids-children-04.component';
+import { AidsChildren05Component } from './aids-children/aids-children-05/aids-children-05.component';
+import { AidsChildren06Component } from './aids-children/aids-children-06/aids-children-06.component';
+import { AidsChildren07Component } from './aids-children/aids-children-07/aids-children-07.component';
+import { AidsChildren08Component } from './aids-children/aids-children-08/aids-children-08.component';
+import { AidsChildren09Component } from './aids-children/aids-children-09/aids-children-09.component';
+import { AidsChildrenEndComponent } from './aids-children/aids-children-end/aids-children-end.component';
 
 
 @NgModule({
@@ -85,6 +95,16 @@ import { ThreadsComponent } from '../threads/threads.component';
         AidsWomen13Component,
         AidsWomenEndComponent,
         ThreadsComponent,
+        AidsChildren01Component,
+        AidsChildren02Component,
+        AidsChildren03Component,
+        AidsChildren04Component,
+        AidsChildren05Component,
+        AidsChildren06Component,
+        AidsChildren07Component,
+        AidsChildren08Component,
+        AidsChildren09Component,
+        AidsChildrenEndComponent,
     ],
 
     imports:[
@@ -129,6 +149,16 @@ import { ThreadsComponent } from '../threads/threads.component';
             { path: 'aids-women-12', component: AidsWomen12Component },
             { path: 'aids-women-13', component: AidsWomen13Component },
             { path: 'aids-women-end', component: AidsWomenEndComponent },
+            { path: 'aids-children-01', component: AidsChildren01Component },
+            { path: 'aids-children-02', component: AidsChildren02Component },
+            { path: 'aids-children-03', component: AidsChildren03Component },
+            { path: 'aids-children-04', component: AidsChildren04Component },
+            { path: 'aids-children-05', component: AidsChildren05Component },
+            { path: 'aids-children-06', component: AidsChildren06Component },
+            { path: 'aids-children-07', component: AidsChildren07Component },
+            { path: 'aids-children-08', component: AidsChildren08Component },
+            { path: 'aids-children-09', component: AidsChildren09Component },
+            { path: 'aids-children-end', component: AidsChildrenEndComponent },
         ])
     ],
     providers:[]
