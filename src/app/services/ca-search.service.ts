@@ -7,10 +7,11 @@ import 'rxjs/add/operator/map';
 
 
 export interface TestRecord {
-  object_id:string,
-  id:string,
-  idno:string,
-  display_label:string
+  id:number,
+  username:string,
+  name:string,
+  phone:string,
+  website:string
 }
 
 @Injectable()
@@ -21,6 +22,7 @@ export class CaSearchService {
 
   //Collective Access DB
   ca_base:string = "http://atecquilt.utdallas.edu/collectiveaccess/providence/service.php/find/";
+  ca_testbase:string = "http://quilt.utdallas.edu/collectiveaccess/providence/service.php/find/";
   ca_tables = {
     name: "",
     year: "",
@@ -32,24 +34,33 @@ export class CaSearchService {
   };
 
   begin_search = "?pretty=1&q=";
+  browse_term = "*";
+
+  response:any;
+
+
 
   constructor(http:Http) {
     this.http = http;
   }
 
-  getTestResults():Observable<any> {
-    var result = this.http
-      .get('.mock-json/objects.json')
-      .map(res => res.json())
+  getTestResults(): Observable<TestRecord[]> {
+    var results = this.http
+      .get('http://jsonplaceholder.typicode.com/users')
+      .map(res => <TestRecord[]>res.json())
+      //.subscribe(res => {
+      //  this.response = res;
+      //});
       .do (data => console.log( 'JSON: '+ JSON.stringify(data)))
       .catch (this.handleError);
 
-    return result;
+      return results;
   }
 
-  getResults(querytype:string, querystring:string):string {
+  getResults(querytype:string, querystring:string):Observable<any[]> {
     var search_term = "*" + querystring + "*";
-    var url = this.ca_base + this.ca_tables.test + this.begin_search + search_term;
+    var url = this.ca_testbase + this.ca_tables.test + this.begin_search + this.browse_term;
+    //var url = this.ca_base + this.ca_tables.test + this.begin_search + search_term;
 
     var result = this.http
       .get(url)
@@ -57,11 +68,13 @@ export class CaSearchService {
       .do (data => console.log( 'JSON: '+ JSON.stringify(data)))
       .catch (this.handleError);
 
-    return result.toString();
+    return result;
   }
 
   getMedia():string {
     //return media URL
+    var url = this.ca_testbase + this.ca_tables.test + this.begin_search + this.browse_term;
+
 
     return "";
   }
