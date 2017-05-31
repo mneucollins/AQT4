@@ -4,7 +4,7 @@ import { HttpModule } from '@angular/http'
 
 import { SharedModule } from '../shared/shared.module';
 
-// import { ExploreStoriesComponent } from '../explore/explorestories.component';
+// impgiort { ExploreStoriesComponent } from '../explore/explorestories.component';
 import { AidsActivism01Component } from './aids-activism/aids-activism-01/aids-activism-01.component';
 import { AidsActivism02Component } from './aids-activism/aids-activism-02/aids-activism-02.component';
 import { AidsActivism03Component } from './aids-activism/aids-activism-03/aids-activism-03.component';
