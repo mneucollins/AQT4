@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import {TestRecord} from "../../../services/ca-search.service";
 
 @Component({
   selector: 'app-find-results',
@@ -8,7 +9,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class FindResultsComponent implements OnInit {
 
     //@Input() results: Panel[];
-    @Input() results: string[];
+    @Input() results: TestRecord[];
     @Input() display: boolean;
 
 

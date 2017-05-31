@@ -6,13 +6,14 @@
 
 
   <div *ngIf="display" class="find-results">
-    <div class="find-panel-result">
-      <label>name: </label>{{results[0]}}<br>
-      <label>Block ID: </label> {{results[1]}}<br>
-      <label>Maker Name: </label> {{results[1]}}<br>
-      <label>City: </label> {{results[1]}}<br>
-      <label>Year: </label> {{results[1]}}<br>
-    <div>
+    <div *ngFor='let result of results'>
+      <div class="find-panel-result">
+        <label>name: </label>{{result.name}}<br>
+        <label>Block ID: </label> {{result.phone}}<br>
+        <label>Maker Name: </label> {{result.username}}<br>
+        <label>City: </label> {{result.website}}<br>
+        <label>Year: </label> {{result.id}}<br>
+      </div>
   </div>
 
 </div>
