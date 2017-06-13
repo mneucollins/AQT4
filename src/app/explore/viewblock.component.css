@@ -1,0 +1,9 @@
+#view_block-heading {
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 3em;
+  line-height: 1.2em;
+  margin-top: 2%;
+  /*margin-left: -10%;*/ }

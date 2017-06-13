@@ -1,0 +1,57 @@
+<!--From AQT...needs refactoring for AQT2-->
+<div id="background_2">
+	<div>
+		<div class="row spaceabove20">
+			<div class="col-xs-offset-1">
+				<!--<div class="pg-title ">-->
+					<div id="view_random-heading">
+						<span class="txt-reverse">Random</span>
+						<span class="txt-reverse">Selection</span>
+					</div>
+				<!--</div>-->
+			</div>
+		</div>
+
+		<div class="display_panel">
+			<div class="panel_img">
+				<!-- <img src="{{panel.src}}" width="500"> -->
+				<div id="openseadragon-viewrandom" style="width: 500px; height: 500px;"></div>
+					<script src="../assets/js/openseadragon-2.2.1/openseadragon.min.js"></script>
+					<script type="text/javascript">
+					    var viewer = OpenSeadragon({
+					        id: "openseadragon-viewrandom",
+					        prefixUrl: "../assets/js/openseadragon-2.2.1/images/",
+					        //tileSources: "/Users/jacobus/Documents/AIDS Quilt Touch/Active Code/AQT2/app/services/mock-img/00001.dzi"
+					        //tileSources: "tmp-img/00001.dzi"
+									tileSources: "/Users/jacobus/Documents/AIDS Quilt Touch/Active Code/AQT2/app/explore/tmp-img/00001.dzi"
+					    });
+					</script>
+				</div>
+			<!--</div>-->
+		</div>
+	</div>
+	<!--<div class="row">
+		<div class = "col-xs-5 col-xs-offset-1 col-md-3 col-md-offset-1 spaceabove20">
+			<img src="{{panel.src}}" width="100%">
+		</div>
+		<div class = "col-xs-5  col-md-3 spaceabove20">
+			<img src="{{panel.src}}" width="100%">
+		</div>
+		<div class = "col-xs-5 col-xs-offset-1 col-md-3 col-md-offset-0 spaceabove20">
+			<img src="{{panel.src}}" width="100%">
+		</div>
+		<div class = "col-xs-5 col-md-3 col-md-offset-1 spaceabove20">
+			<img src="{{panel.src}}" width="100%">
+		</div>
+		<div class = "col-xs-5 col-xs-offset-1 col-md-3 col-md-offset-0 spaceabove20">
+			<img src="{{panel.src}}" width="100%">
+		</div>
+		<div class = "col-xs-5 col-md-3 spaceabove20">
+			<img src="{{panel.src}}" width="100%">
+		</div>
+	</div>
+	<div class="row spaceabove40 spacebelow40">&nbsp;</div>-->
+
+	
+	<globalnav4></globalnav4>
+</div>

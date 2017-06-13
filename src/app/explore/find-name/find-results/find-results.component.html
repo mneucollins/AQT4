@@ -1,0 +1,19 @@
+<div class="results-pane">
+
+  <div *ngIf="display" id="results-title">
+    Search Results
+  </div>
+
+
+  <div *ngIf="display" class="find-results">
+    <div *ngFor='let result of results'>
+      <div class="find-panel-result">
+        <label>name: </label>{{result.name}}<br>
+        <label>Block ID: </label> {{result.phone}}<br>
+        <label>Maker Name: </label> {{result.username}}<br>
+        <label>City: </label> {{result.website}}<br>
+        <label>Year: </label> {{result.id}}<br>
+      </div>
+  </div>
+
+</div>

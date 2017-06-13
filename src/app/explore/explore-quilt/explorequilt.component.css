@@ -1,0 +1,52 @@
+#explore_the_quilt-heading {
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 3em;
+  line-height: 1.2em;
+  margin-top: 10%;
+  /*margin-left: -10%;*/ }
+
+
+/*buttons as id's in case we need to target them*/
+#aids_activism-button, #viewrandom-button, #findname-button, #taketour-button {
+  width: 102%;
+  padding-left: 10%;
+  padding-top: 6px;
+  padding-bottom: 4px;
+  /*top: 40%;
+  margin-left: -15px;
+  margin-right: -30px;
+  margin-top: 10px;*/
+  background-color: #F495B4; 
+  }
+
+
+
+/*#viewrandom-button, #findname-button, #taketour-button {
+  width: 110%;
+  top: 40%;
+  padding-left: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: -15px;
+  /*margin-top: 10px;*/
+  /*background-color: #F495B4; }*/*/
+
+.explore_the_quilt-label, viewrandom-label {
+  font-size: 1.4em;
+  line-height: 1.9em;
+  text-align: left;
+  text-transform: uppercase;
+  padding-top: 1%;
+  padding-bottom: 1%; }
+
+.explore_the_quilt-menu {
+  font-size: 1.3em;
+  width: 100%;
+  line-height: 1.9em;
+  text-align: left;
+  text-transform: uppercase;
+  padding-top: 1%;
+  padding-bottom: 1%; }

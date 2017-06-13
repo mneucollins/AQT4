@@ -1,0 +1,29 @@
+#aboutContainer {
+ 	background-color: #000000;
+	background-color: rgba(0, 0, 0, 0.65);
+    position: fixed;
+    margin-left: 1%;
+    margin-right: 3%;
+    margin-top: 2%;
+    width: 96%;
+    height: 96%;
+    color: #ffffff;
+    overflow: scroll;
+}
+
+.about_frame {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.about{
+    padding-top: 10%;
+}
+
+.close {
+	background-color: rgba(0, 0, 0, 1);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}

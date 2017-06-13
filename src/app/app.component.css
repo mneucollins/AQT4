@@ -1,0 +1,17 @@
+li {
+    font-size: large;
+}
+
+div.panel-heading {
+   font-size: x-large; 
+}
+
+.background_1{
+  background-image: url(../assets/images/backgrounds/background_white_c.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 800px;
+  text-align: center;
+  overflow: hidden; 
+}

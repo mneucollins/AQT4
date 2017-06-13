@@ -1,0 +1,32 @@
+
+/*bodytext and media query body text in aids_activism_base.css*/
+.body_text {
+    font-size: 2.8em;
+}
+
+/*generic smartphone in landscape mode*/
+@media only screen 
+    and (min-width: 320px) 
+    and (max-width: 736px) 
+    and (orientation: landscape) {
+    #textblock {
+        margin-top: -50px;
+    }
+    
+      .body_text {
+          font-size: 1.5em;
+          margin-left: 25px;
+      }
+    }
+
+/*generic smartphone in portrait mode*/
+@media only screen 
+    and (min-width: 320px) 
+    and (max-width: 736px) 
+    and (orientation: portrait) {
+      .body_text {
+          font-size: 1.6em;
+          margin-left: 5%;
+          margin-right: 5%
+      }
+    }

@@ -1,0 +1,75 @@
+<!--From AQT...needs refactoring for AQT2-->
+<div id="background_2">
+	<!--<div class="container-fluid">-->
+		<div class="row spaceabove20">
+			<div class="col-xs-offset-1">
+				<!--<div class="pg-title ">-->
+					<div id="find_name-heading">
+						<span class="txt-reverse">Find a</span>
+						<span class="txt-reverse">Quilt Panel</span>
+					</div>
+				<!--</div>-->
+			</div>
+		</div>
+
+		<div class="row spaceabove20 find_name-menu" id="find_name-panel">
+			<div class="txt-reverse">
+				What are you looking for?
+			</div>
+
+			<div class="row spaceabove20">
+				<div class="form-group col-xs-10">
+					<select class="form-control dropdown" id="qtype" [(ngModel)]="model.querytype" querytype="qtype" required>
+						<option *ngFor="let qt of querytypes" [value]="qt">{{qt}}</option>
+					</select>
+					<input 	type="text"
+							class="form-control"
+							id="name_search"
+							aria-describedby="name-help"
+							placeholder="Enter search"
+							[(ngModel)]="model.querystring" querystring="text"
+							required>
+					<small id="name-help" class="form-text text-muted">
+					</small>
+				</div>
+
+			</div>
+
+			<!--<div class="row" id="more_options-button" (click)='onMoreOptions()'>-->
+			<!-- <div class="row">
+				<div class="col-xs-10" id="more_options-button" (click)='onMoreOptions()'>
+					<span class="txt-reverse"><i>More Options&hellip;</i></span>
+				</div>
+			</div> -->
+
+			<div class="row spaceabove20">
+				<div class="col-xs-10 vcenter" id="find_name-button" (click)='onFind()'>
+					<div class="row">
+						<div class = "col-xs-10 col-xs-offset-1">
+							<div class="find_name-menu txt-reverse">
+								Find Name
+							</div>
+						</div>
+						<div class="col-xs-1 vcenter icon-right spaceabove10"></div>
+					</div>
+				</div>
+
+				<div id="reset-container">
+					<div *ngIf="this.submitted" id="reset-button" (click)='onReset()'>
+											Reset Search
+					</div>
+				</div>
+
+				<app-find-results [results] = "results" [display] = "submitted"></app-find-results>
+
+
+
+
+				<div class="row spaceabove20 spacebelow40"></div>
+			</div>
+		</div>
+
+		<globalnav4></globalnav4>
+	<!--</div>-->
+
+</div>

@@ -1,0 +1,30 @@
+
+
+.icon-home-text-reverse, .icon-info-text-reverse, .icon-back-text-reverse,
+.icon-stitch-text-reverse, .icon-favorite-text-reverse, .icon-tour-text-reverse {
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 72px;
+  background-image: url("../../assets/images/icons/sprite-icon-text.png");
+  padding: 0px; }
+
+.icon-home-text-reverse {
+  background-position: -60px -144px; }
+
+.icon-info-text-reverse {
+  background-position: -60px 0px; }
+
+.icon-back-text-reverse {
+  background-position: -60px -72px; }
+
+.icon-stitch-text-reverse {
+  background-position: -60px -360px; }
+
+.icon-favorite-text-reverse {
+  background-position: -60px -432px; }
+
+.icon-tour-text-reverse {
+  background-position: -60px -504px; }
+
+.icon-tour-text-reverse {
+  background-position: -60px -504px; }

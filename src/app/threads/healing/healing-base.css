@@ -1,0 +1,96 @@
+#heal_bak_light {
+  background-image: url("../../../assets/images/backgrounds/healing_bak_bright.jpg");
+  background-repeat: no-repeat;
+  background-position: 40% 20%;
+  background-attachment: fixed;
+  /*background-size: 100% auto;*/
+  background-size: auto 110%;
+  min-height: 1024px;
+  text-align: center;
+  overflow: hidden;
+  margin-left: -20px;
+  margin-right: -20px;
+  background-color: #666666;
+}
+
+#heal_bak_dark {
+  background-image: url("../../../assets/images/backgrounds/healing_bak_dark.jpg");
+  background-repeat: no-repeat;
+  background-position: 40% 0%;
+  background-attachment: fixed;
+  /*background-size: auto 100%;*/
+  min-height: 1024px;
+  text-align: center;
+  overflow: hidden;
+  margin-left: -20px;
+  margin-right: -20px;
+  background-color: #666666;
+}
+
+#navback {
+      background-image: url("../../../assets/images/icons/left_burnt.png");
+      background-repeat: no-repeat;
+      width: 60px;
+      height: 72px;
+      top: 15px;
+      left: 10px;
+      opacity: 1;
+      position: fixed;
+}
+
+#navforward{
+      background-image: url("../../../assets/images/icons/right_burnt.png");
+      background-repeat: no-repeat;
+      width: 60px;
+      height: 72px;
+      top: 15px;
+      right: 10px;
+      position: fixed;
+      opacity: .8;
+}
+
+
+
+
+
+
+.audio_bak {
+  background-color: #5ECE58;
+  opacity: .7;
+  padding: 10px;
+  width: 90%;
+  text-align: center;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+/*generic smartphone in landscape mode*/
+@media only screen 
+    and (min-width: 320px) 
+    and (max-width: 736px) 
+    and (orientation: landscape) {
+      .title_text{
+            font-size: 4em;
+            margin-top: 5%;
+      }
+       .body_text {
+          font-size: 1.75em;
+          margin-left: 25px;
+      }
+    }
+
+/*generic smartphone in portrait mode*/
+@media only screen 
+    and (min-width: 320px) 
+    and (max-width: 736px) 
+    and (orientation: portrait) {
+      .body_text {
+          font-size: 1.6em;
+          margin-left: 5%;
+          margin-right: 5%
+      }
+      .title_text{
+        margin-top: 6%;
+        font-size: 3.8em;
+      }
+    }
